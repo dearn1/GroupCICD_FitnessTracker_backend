@@ -32,7 +32,13 @@ class UserLoginView(APIView):
 
             return Response({
                 'message': 'Login successful',
-                'user': UserProfileSerializer(user).data,
+                'user': {
+                    'id': user.id,
+                    'email': user.email,
+                    'first_name': user.first_name,
+                    'last_name': user.last_name,
+                    'username': user.username
+                },
                 'tokens': {
                     'refresh': str(refresh),
                     'access': str(refresh.access_token),
