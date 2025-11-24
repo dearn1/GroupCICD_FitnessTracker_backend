@@ -3,6 +3,7 @@
 A comprehensive fitness tracking application backend built with Django and Django REST Framework. This API powers a fitness tracking platform that helps users monitor their workouts, meals, steps, and overall health metrics.
 
 ## 🚀 Features
+.
 
 ### 🔐 User Authentication
 - JWT-based authentication system
