@@ -1,0 +1,6 @@
+DB_HOST=healthtrack-dbserver.postgres.database.azure.com
+DB_USER=admindb
+DB_PASSWORD=Azure123!
+DB_NAME=healthtrack-db
+DB_PORT=5432
+SECRET_KEY=django-insecure-^l482n+=kenr%!cpvqsfzyv_0igm(w*&$oq%i+%@oxwy2jh_j(
